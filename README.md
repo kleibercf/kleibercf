@@ -4,7 +4,7 @@ Este é meu portfólio de aplicações. Aqui compartilho os projetos que desenvo
 
 ## Projetos
 
-[Sistema de Ponto](#sistema-de-ponto) · [Sistema de Estoque](#sistema-de-estoque)
+[Sistema de Ponto](#sistema-de-ponto) · [Sistema de Estoque](#sistema-de-estoque) · [Gerenciador de Discos](#gerenciador-de-discos)
 
 ### Sistema de Ponto
 
@@ -77,3 +77,15 @@ Atuei na arquitetura e no desenvolvimento da interface, da API e dos fluxos de c
 **Relatório de contagem** — o relatório gerado após a aprovação compara as quantidades contadas com os saldos do sistema e destaca as diferenças.
 
 ![Relatório gerado pelo sistema para uma contagem aprovada de seis itens, com duas divergências](imagens/sistema-de-estoque/relatorio-de-contagem.png)
+
+### Gerenciador de Discos
+
+Desenvolvi uma ferramenta de terminal para formatar pendrives e gerenciar discos e partições no Windows. A ferramenta reúne operações de armazenamento em um menu e mostra o dispositivo e o efeito da ação antes de pedir confirmação.
+
+- **Consulta** — lista discos e partições e ajuda a distinguir unidades USB do disco do sistema.
+- **Formatação e particionamento** — oferece NTFS, exFAT e FAT32 conforme o tamanho do volume e permite criar, redimensionar ou excluir partições.
+- **Controle de operações** — protege discos do sistema, exige confirmação específica e revalida a identidade e o layout do disco antes de alterar o dispositivo.
+
+A suíte inclui 33 verificações com discos simulados, incluindo cancelamento, troca de dispositivo e registro de falhas.
+
+**Tecnologias** — Windows PowerShell 5.1 e módulo Storage do Windows.

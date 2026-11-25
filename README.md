@@ -29,3 +29,15 @@ Atuei na arquitetura e no desenvolvimento da aplicação, da interface à persis
 **Fechamento do período** — O RH confere horas previstas, trabalhadas e saldos antes de finalizar as folhas e exportá-las em PDF.
 
 ![Relatório de ponto com duas folhas finalizadas, uma pendente e opções de exportação em PDF](imagens/sistema-de-ponto/fechamento-do-periodo.png)
+
+**Banco de horas** — O RH acompanha os saldos por funcionário, os créditos e débitos lançados e o valor a pagar em folha.
+
+![Tela de Banco de horas com saldos por funcionário e um lançamento de crédito](imagens/sistema-de-ponto/banco-de-horas.png)
+
+**Folha finalizada** — A folha individual reúne as marcações diárias, as horas previstas e trabalhadas e o saldo do período após o fechamento.
+
+![Folha individual finalizada com cinco dias de marcações e saldo positivo de uma hora](imagens/sistema-de-ponto/folha-finalizada.png)
+
+**Relatório gerado em PDF** — A folha exportada reúne as marcações, o resumo de horas e os campos de assinatura.
+
+<img src="imagens/sistema-de-ponto/relatorio-gerado.png" width="680" alt="Folha de ponto exportada em PDF com dados fictícios, tabela de marcações, resumo e campos de assinatura">

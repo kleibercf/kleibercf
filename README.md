@@ -89,3 +89,17 @@ Desenvolvi uma ferramenta de terminal para formatar pendrives e gerenciar discos
 A suíte inclui 33 verificações com discos simulados, incluindo cancelamento, troca de dispositivo e registro de falhas.
 
 **Tecnologias** — Windows PowerShell 5.1 e módulo Storage do Windows.
+
+#### Demonstração com discos simulados
+
+**Menu principal** — reúne as opções de consulta, formatação e gestão de partições.
+
+![Menu do Gerenciador de Discos com as opções de consulta, formatação e particionamento](imagens/gerenciador-de-discos/menu.png)
+
+**Lista de discos** — mostra um disco do sistema protegido, um SSD externo e um pendrive, todos com modelos e identificadores fictícios.
+
+![Lista simulada com o disco do sistema protegido, um SSD externo e um pendrive](imagens/gerenciador-de-discos/lista-de-discos.png)
+
+**Confirmação de formatação** — mostra o dispositivo, a partição, o sistema de arquivos e a frase exigida para confirmar. Na demonstração, a operação é cancelada.
+
+![Confirmação de formatação em exFAT de um pendrive fictício, seguida do cancelamento](imagens/gerenciador-de-discos/confirmacao-de-formatacao.png)

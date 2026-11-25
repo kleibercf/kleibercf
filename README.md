@@ -4,6 +4,8 @@ Este é meu portfólio de aplicações. Aqui compartilho os projetos que desenvo
 
 ## Projetos
 
+[Sistema de Ponto](#sistema-de-ponto) · [Sistema de Estoque](#sistema-de-estoque)
+
 ### Sistema de Ponto
 
 Desenvolvi uma aplicação web para registrar jornadas de trabalho e ajudar o RH a acompanhar a frequência e fechar as folhas de ponto.
@@ -41,3 +43,37 @@ Atuei na arquitetura e no desenvolvimento da aplicação, da interface à persis
 **Relatório gerado em PDF** — A folha exportada reúne as marcações, o resumo de horas e os campos de assinatura.
 
 <img src="imagens/sistema-de-ponto/relatorio-gerado.png" width="680" alt="Folha de ponto exportada em PDF com dados fictícios, tabela de marcações, resumo e campos de assinatura">
+
+### Sistema de Estoque
+
+Desenvolvi uma central web para organizar o inventário por filial, da identificação dos produtos à conferência dos saldos.
+
+- **Contagem Diária** — importação de listas em CSV, contagem cega com leitura de QR e aprovação dos resultados. Quando há divergências, o responsável pode solicitar a recontagem apenas dos itens afetados.
+- **Balanço de Estoque** — contagem por rua e prateleira, consolidação das rodadas e exportação em CSV para o ERP Solution.
+- **Etiquetas QR** — geração de folhas A4 a partir de CSV, com código, identificação e alocação do produto.
+
+Atuei na arquitetura e no desenvolvimento da interface, da API e dos fluxos de contagem e aprovação.
+
+**Tecnologias** — Node.js, SQLite, JavaScript, HTML e CSS.
+
+#### Demonstração do estoque com dados fictícios
+
+**Central de operações** — acesso aos três módulos do sistema.
+
+![Central de operações com Contagem Diária, Balanço de Estoque e Etiquetas QR](imagens/sistema-de-estoque/central-de-operacoes.png)
+
+**Contagem Diária** — o estoquista registra as quantidades após identificar os produtos pelo QR. O saldo de referência fica oculto durante a coleta.
+
+![Contagem cega em andamento, com quatro produtos contados e dois pendentes](imagens/sistema-de-estoque/contagem-diaria.png)
+
+**Balanço de Estoque** — o painel mostra a proporção de itens conformes e divergentes, com filtros por balanço, linha de produto, funcionário, rua e alocação.
+
+![Painel do balanço com oito itens consolidados, seis conformes e dois divergentes](imagens/sistema-de-estoque/dashboard-do-balanco.png)
+
+**Etiquetas QR** — prévia da folha A4 com os códigos, as descrições e as posições dos itens.
+
+![Oito etiquetas de demonstração com QR, identificação do produto e alocação](imagens/sistema-de-estoque/etiquetas-qr.png)
+
+**Relatório de contagem** — o relatório gerado após a aprovação compara as quantidades contadas com os saldos do sistema e destaca as diferenças.
+
+![Relatório gerado pelo sistema para uma contagem aprovada de seis itens, com duas divergências](imagens/sistema-de-estoque/relatorio-de-contagem.png)
